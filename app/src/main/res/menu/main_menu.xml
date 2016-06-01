@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:vivianaranha="http://schemas.android.com/apk/res-auto" >
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/settings"
+        android:orderInCategory="2"
+        vivianaranha:showAsAction="always"
+        android:icon="@android:drawable/ic_delete"/>
+
+
+    <item android:id="@+id/action_second"
+        android:title="Second"
+        android:orderInCategory="1"
+        vivianaranha:showAsAction="always"/>
+
+
+    <item android:id="@+id/action_third"
+        android:title="Third"
+        android:orderInCategory="3"
+        vivianaranha:showAsAction="always"/>
+</menu>
